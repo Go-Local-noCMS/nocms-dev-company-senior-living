@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #2A5F65;
+  --color-secondary: #6B9E9A;
+  --color-accent: #C8944F;
+  --color-background: #FDFAF5;
+  --color-surface: #F2ECE3;
+  --color-text: #2A2622;
+  --color-muted: #8D857B;
+
+  --font-heading: "Cormorant Garamond", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}

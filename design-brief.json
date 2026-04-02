@@ -1,0 +1,46 @@
+{
+  "colors": {
+    "primary": "#2A5F65",
+    "secondary": "#6B9E9A",
+    "accent": "#C8944F",
+    "background": "#FDFAF5",
+    "surface": "#F2ECE3",
+    "text": "#2A2622",
+    "muted": "#8D857B"
+  },
+  "typography": {
+    "headingFont": "Cormorant Garamond",
+    "bodyFont": "Plus Jakarta Sans",
+    "monoFont": "JetBrains Mono",
+    "scale": "spacious"
+  },
+  "spacing": "relaxed",
+  "borderRadius": "lg",
+  "shadows": "elevated",
+  "mood": "Warm hospitality meets lifestyle magazine — a luxury senior living experience that feels like a boutique resort where families trust, residents thrive, and every detail whispers care",
+  "motionStyle": "moderate",
+  "layoutStyle": "editorial-stack",
+  "designRules": [
+    "IDENTITY: Cormorant Garamond headings at dramatic scale (5xl-7xl) create visual gravitas. The golden accent thread — a thin amber line — appears as section dividers throughout for continuity. Warm cream backgrounds only (#FDFAF5), never pure white",
+    "COLOR HIERARCHY: Deep teal primary for trust and nature; burnished amber accent reserved for CTAs, badges, and highlights. Use primary/8 and accent/10 for tinted icon backgrounds. Warm-tinted shadows (shadow-accent/5) instead of grey",
+    "LAYOUT: Hero with community search bar as primary conversion tool. Care types as 3-column card grid with icon-to-filled hover transition. Stats bar with large tabular-nums. Testimonials in oversized serif quote cards with dot navigation. Blog preview in 3-col grid",
+    "COMPONENTS: Cards have rounded-2xl with border-text/5 and hover:-translate-y-1. Buttons use shadow-accent/20 with hover glow. Section headers use tracking-[0.2em] uppercase accent-colored overline labels. Footer in primary bg with golden accent top-border",
+    "CONVERSION: Sticky nav with amber CTA button. Search prominently in hero. Schedule-a-Tour CTA after every major section. Phone number always visible. Form with warm surface bg and rounded-3xl container. Trust stats (years, communities, satisfaction) above fold"
+  ],
+  "designPatterns": {
+    "card": "<div className=\"bg-background rounded-2xl p-8 border border-text/5 shadow-sm hover:shadow-xl hover:shadow-accent/5 hover:-translate-y-1 transition-all duration-300\">",
+    "button": "<a className=\"bg-accent text-background font-semibold px-8 py-4 rounded-xl text-lg shadow-lg shadow-accent/20 hover:shadow-xl hover:shadow-accent/30 hover:-translate-y-0.5 transition-all\">",
+    "buttonSecondary": "<a className=\"border border-text/15 text-text font-medium px-8 py-4 rounded-xl hover:bg-surface hover:border-text/25 transition-all\">",
+    "heading": "<h2 className=\"font-heading text-4xl sm:text-5xl font-bold text-text tracking-tight\" style=\"text-wrap: balance\">",
+    "subheading": "<p className=\"text-lg text-text-muted leading-relaxed max-w-2xl font-body\">",
+    "badge": "<span className=\"inline-flex items-center gap-2 bg-accent/10 border border-accent/20 rounded-full px-4 py-1.5 text-sm font-medium text-accent\">",
+    "input": "<input className=\"w-full bg-background border border-text/10 rounded-xl px-4 py-3 text-text placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent/30 transition font-body\" />",
+    "sectionBg": "bg-background",
+    "sectionAltBg": "bg-surface",
+    "sectionDarkBg": "bg-primary text-background",
+    "navStyle": "sticky top-0 z-50 bg-background/85 backdrop-blur-xl border-b border-text/5",
+    "footerStyle": "bg-primary text-background",
+    "iconBox": "<div className=\"h-14 w-14 rounded-2xl bg-accent/10 flex items-center justify-center text-accent\">",
+    "divider": "<div className=\"flex items-center justify-center gap-3 py-2\" aria-hidden=\"true\"><div className=\"h-px w-12 bg-gradient-to-r from-transparent to-accent/40\"></div><div className=\"h-1.5 w-1.5 rounded-full bg-accent/60\"></div><div className=\"h-px w-12 bg-gradient-to-l from-transparent to-accent/40\"></div></div>"
+  }
+}
